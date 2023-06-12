@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/09 21:04:58 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/11 10:53:18 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/12 14:52:19 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Fixed
 		static const int _m = 8;
 
 	public:
-		Fixed(void);
+		Fixed();
 		Fixed(const Fixed &fixed);
 		Fixed(const int i);
 		Fixed(const float f);

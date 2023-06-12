@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/09 18:04:36 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/09 20:33:34 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/12 14:52:15 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ private:
 
 public:
     Fixed();
-    Fixed(Fixed &fixed);
+    Fixed(const Fixed &fixed);
     ~Fixed();
-    Fixed &operator=(Fixed &fixed);
+    Fixed &operator=(const Fixed &fixed);
 
     int getRawBits(void) const;
     void setRawBits(int const raw);
